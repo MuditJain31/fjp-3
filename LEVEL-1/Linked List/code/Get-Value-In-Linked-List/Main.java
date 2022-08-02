@@ -73,7 +73,7 @@ public class Main {
     public int getAt(int idx){
       // write your code here
       if(size>0){
-          if(idx>size-1){
+          if(idx>size-1 || idx<0){
               System.out.println("Invalid arguments");
               return -1;
           }else{
